@@ -1,0 +1,306 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "validating login",
+        "description": "",
+        "id": "flipkart-shopping;validating-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32796333200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Chrome Browser",
+            "match": {
+              "location": "LoginStepDefinition.i_launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 634628600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"7386670356\" and \"ramya448\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 13
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_and_in_the_field(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2644756800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on  submit button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "validating selection",
+        "description": "",
+        "id": "flipkart-shopping;validating-selection;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16964855600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on the browser",
+            "match": {
+              "location": "SearchPageStepDefinition.user_is_on_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 486364100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Now enter  \"7386670356\" and \"ramya448\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 12
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 29
+                }
+              ],
+              "location": "SearchPageStepDefinition.now_enter_and_in_the_field(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264128100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on signin button",
+            "match": {
+              "location": "SearchPageStepDefinition.click_on_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3205274600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Go to search item and type \"coronavirus mask\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "coronavirus mask",
+                  "offset": 28
+                }
+              ],
+              "location": "SearchPageStepDefinition.go_to_search_item_and_type(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1758054200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on searchicon to go to nextpage",
+            "match": {
+              "location": "SearchPageStepDefinition.click_on_searchicon_to_go_to_nextpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          },
+          {
+            "line": 12,
+            "name": "@tc_02_SearchProduct"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "select Product",
+        "description": "",
+        "id": "flipkart-shopping;select-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32234430400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user runs the application",
+            "match": {
+              "location": "DisplayproductStepDefinition.user_runs_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 411962100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter  \"7386670356\" and \"ramya448\" in the login field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 13
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 30
+                }
+              ],
+              "location": "DisplayproductStepDefinition.user_enter_and_in_the_login_field(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 209479200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user then logins by clicking in sign in",
+            "match": {
+              "location": "DisplayproductStepDefinition.user_then_logins_by_clicking_in_sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7137547000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user Go to search product and type \"coronavirus mask\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "coronavirus mask",
+                  "offset": 36
+                }
+              ],
+              "location": "DisplayproductStepDefinition.user_Go_to_search_product_and_type(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 582215200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user then clicks on searchicon",
+            "match": {
+              "location": "DisplayproductStepDefinition.user_then_clicks_on_searchicon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9399515400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on the product to go to nextpage",
+            "match": {
+              "location": "DisplayproductStepDefinition.user_clicks_on_the_product_to_go_to_nextpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tc_03_DisplayProduct"
+          },
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart Shopping",
+    "description": "",
+    "id": "flipkart-shopping",
+    "keyword": "Feature",
+    "uri": "C:/Users/DEDEEPYA SAI/eclipse-project/FlipKartProject/src/test/resources/features/flipkart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Flipkart"
+      }
+    ]
+  }
+]
